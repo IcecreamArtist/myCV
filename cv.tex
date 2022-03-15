@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 最后更新:2014年10月11日
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% moderncv version 1.5.1 (29 Apr 2013)
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% \usepackage[noindent]{ctex} %中文支持
+% \setCJKmainfont{Libian SC}
+% \setCJKmainfont{Hannotate SC}
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[top=1cm,bottom=1.5cm,left=1cm,right=1cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{amssymb}
+\usepackage{CJK}
+\input zhwinfonts
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\name{\begin{CJK}{UTF8}{song}党\end{CJK}}{\begin{CJK}{UTF8}{song}禧琳\end{CJK}}
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\phone[mobile]{(+86)~18826006457}
+\email{dangxilin@stu2019.jnu.edu.cn}
+\homepage{Github\&Codeforces: IcecreamArtist}
+%\social[twitter]{username}
+%\social[github]{username}
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Guangzhou}{\begin{CJK}{UTF8}{song}学士，计算机科学与技术（全英文教学）\end{CJK} }{\begin{CJK}{UTF8}{song}暨南大学\end{CJK}}{Sep 2019-Jun 2023}{}{\begin{CJK}{UTF8}{song}英语水平：全英语教学、大学英语四六级一次性通过、雅思已报考\end{CJK}
+}{GPA: 4.24(5.0) or 92.4(100) (1/27)}  % Arguments not required can be left empty
+
+%\cventry{2013---2019}{}{华南师范大学附属中学}{中学}{}{}{}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Courses}
+
+\cventry{}{Jinan University}{Year 1}{}{}{}{
+\begin{itemize}
+    \item \begin{CJK}{UTF8}{song}高等数学（信息类）I：97，问题求解与程序设计：98\end{CJK}
+    \item \begin{CJK}{UTF8}{song}线性代数：93，离散数学I：98\end{CJK}
+\end{itemize}
+}
+
+\cventry{}{Jinan University}{Year 2}{}{}{}{
+\begin{itemize}
+    \item \begin{CJK}{UTF8}{song}离散数学II：94，数据结构：93，计算机组成原理：99\end{CJK}
+    \item \begin{CJK}{UTF8}{song}Java程序设计：95，操作系统：99，算法设计与分析：99\end{CJK}
+    \item \begin{CJK}{UTF8}{song}操作系统：99，概率统计：92，ACM程序设计：98\end{CJK}
+\end{itemize}
+}
+
+\cventry{}{Jinan University}{Year 3(Ongoing)}{}{}{}{
+\begin{itemize}
+   \item \begin{CJK}{UTF8}{song}数据库系统：95，计算机网络：95\end{CJK}
+   \item \begin{CJK}{UTF8}{song}数字图像处理：96，互联网安全与电子商务协议：98\end{CJK}
+   \item \begin{CJK}{UTF8}{song}机器学习：92，人工智能：在读，计算机视觉：在读\end{CJK}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% Due to school's regulations, I cannot enroll in courses from other departments.
+\section{Research Experience}
+\cventry{}{Jinan University}{\begin{CJK}{UTF8}{song}论文发表\end{CJK} A defense method based on attention mechanism against traffic sign adversarial samples}{Spring 2020}{}{}{
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Information Fusion, 76, 55-65.
+\item \begin{CJK}{UTF8}{song}SCI索引，深度学习领域中科大一区TOP期刊，影响因子12.975\end{CJK}
+\item \begin{CJK}{UTF8}{song}负责进行实验、实现算法、验证思路、论文攥写\end{CJK}
+\item \begin{CJK}{UTF8}{song}主要内容为提出一种基于Attention Mechanism的防御算法\end{CJK}
+\end{itemize}
+}
+
+\cventry{}{Jinan University}{\begin{CJK}{UTF8}{song}AI模型可解释性与对抗攻击后模型破坏程度量化（Ongoing）\end{CJK}}{Spring 2022}{}{}{
+\begin{itemize} 
+\item \begin{CJK}{UTF8}{song}作为团队负责人，以该课题进行2022年度大学生创新创业训练计划项目申报\end{CJK}
+\item \begin{CJK}{UTF8}{song}正在进行可解释性与AI模型可视化方面研究，已经取得一定进展\end{CJK}
+\end{itemize} 
+}
+
+
+%----------------------------------------------------------------------------------------
+%   Competition SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Competition Experience}
+
+\cvitem{Winter 2021}{\textbf{\begin{CJK}{UTF8}{song}银奖\end{CJK}}\begin{CJK}{UTF8}{song}：2021中国大学生程序设计竞赛（CCPC）\end{CJK}}
+
+\cvitem{Winter 2020}{\textbf{\begin{CJK}{UTF8}{song}铜奖\end{CJK}}\begin{CJK}{UTF8}{song}：第45届国际大学生程序设计竞赛（ICPC）\end{CJK}}
+
+\cvitem{Spring 2022}{\textbf{\begin{CJK}{UTF8}{song}未出结果\end{CJK}}\begin{CJK}{UTF8}{song}：2022美国大学生数学建模竞赛（MCM/ICM）\end{CJK}}
+
+\cvitem{Winter 2021}{\textbf{\begin{CJK}{UTF8}{song}一等奖\end{CJK}}\begin{CJK}{UTF8}{song}：2020团队程序设计天梯赛\end{CJK}}
+
+\cvitem{Winter 2021}{\textbf{\begin{CJK}{UTF8}{song}三等奖\end{CJK}}\begin{CJK}{UTF8}{song}：2021广东省大学生程序设计竞赛（GDCPC）\end{CJK}}
+
+\cvitem{Winter 2021}{\textbf{\begin{CJK}{UTF8}{song}二等奖\end{CJK}}\begin{CJK}{UTF8}{song}：第十二届蓝桥杯全国软件和信息技术专业人才大赛广东省\end{CJK}}
+
+%----------------------------------------------------------------------------------------
+%   Academic Awards SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Academic Awards}
+
+\cvitem{Fall 2021}{\begin{CJK}{UTF8}{song}国家奖学金\end{CJK}}
+ 
+\cvitem{Fall 2021}{\begin{CJK}{UTF8}{song}2023届暨南大学优异学生\end{CJK}}
+
+\cvitem{Fall 2020}{\begin{CJK}{UTF8}{song}暨南大学优秀学生三等奖学金\end{CJK}}
+
+
+\section{Skills}
+\cvitem{Programming}{C++(Advanced), Java(Advanced), Python(Advanced), \LaTeX(Skillful), Matlab(Skillful), Javascript(Basic), PHP(Basic), html(Basic), CSS(Basic)}
+\cvitem{Research Tools}{Pytorch, TensorFlow, Github, Linux, Colaboratory, VScode, Clion, Pycharm, IDEA, DataSpell, Dev-C++}
+
+\section{Academic Interest}
+\begin{itemize} 
+    \item \begin{CJK}{UTF8}{song}人工智能\end{CJK}
+    \item \begin{CJK}{UTF8}{song}强化学习、机器学习\end{CJK}
+    \item \begin{CJK}{UTF8}{song}自然语言处理、计算机视觉\end{CJK}
+    % \item \begin{CJK}{UTF8}{song}理论计算机：算法博弈论\end{CJK}
+\end{itemize}
+
+\begin{CJK}{UTF8}{song}对算法设计、数学分析有浓厚兴趣\end{CJK} \\
+\begin{CJK}{UTF8}{song}对认知神经科学、心理学、语义学、美学、图形学、经济学等跨学科内容有兴趣\end{CJK} \\
+\begin{CJK}{UTF8}{song}学生期间志在深耕科研，以第一作者身份发表顶刊论文\end{CJK} 
+
+\section{Presentations}
+\cventry{}{Jinan University}{\begin{CJK}{UTF8}{song}Summit论文分析展示\end{CJK}}{Spring 2022}{}{}{
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \begin{CJK}{UTF8}{song}科研组内线上会议，解析一篇研究AI模型可视化的论文\end{CJK}
+\end{itemize}
+}
+
+\cventry{}{Jinan University}{\begin{CJK}{UTF8}{song}ACM寒假训练营动态规划专题\end{CJK}}{Winter 2021}{}{}{
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \begin{CJK}{UTF8}{song}为校ACM集训队新人进行算法讲堂教学\end{CJK}
+\item \begin{CJK}{UTF8}{song}内容为线性DP、背包DP、状压DP、区间DP、树上DP等\end{CJK}
+\end{itemize}
+}
+
+\cventry{}{Jinan University}{\begin{CJK}{UTF8}{song}ACM寒假训练营数论专题\end{CJK}}{Winter 2020}{}{}{
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item \begin{CJK}{UTF8}{song}为校ACM集训队新人进行算法讲堂教学\end{CJK}
+\item \begin{CJK}{UTF8}{song}内容为数论基础，如exgcd、欧拉函数、莫比乌斯等\end{CJK}
+\end{itemize}
+}
+
+\section{Leadership Activities}
+\begin{itemize} 
+    \item \begin{CJK}{UTF8}{song}2021年担任校ACM协会副会长\end{CJK}
+    \item \begin{CJK}{UTF8}{song}2020年担任校哲学社团社长\end{CJK}
+\end{itemize} 
+
+
+\end{document}
